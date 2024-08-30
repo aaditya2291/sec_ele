@@ -13,4 +13,4 @@ def base64_binary(data):
     
     binary_hex_string = base64.b64decode(base64_string).hex()
     
-    return binary_hex_string
+    return (base64_string, binary_hex_string)
